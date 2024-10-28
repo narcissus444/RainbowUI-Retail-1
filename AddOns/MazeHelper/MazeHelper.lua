@@ -2225,7 +2225,7 @@ function MazeHelper.frame:ADDON_LOADED(addonName)
     MHMOTSConfig.ShowSequenceNumbers     = MHMOTSConfig.ShowSequenceNumbers == nil and true or MHMOTSConfig.ShowSequenceNumbers;
     MHMOTSConfig.ShowLargeSymbol         = MHMOTSConfig.ShowLargeSymbol == nil and true or MHMOTSConfig.ShowLargeSymbol;
     MHMOTSConfig.UseCloneAutoMarker      = MHMOTSConfig.UseCloneAutoMarker == nil and true or MHMOTSConfig.UseCloneAutoMarker;
-    MHMOTSConfig.AnnounceWithEnglish     = MHMOTSConfig.AnnounceWithEnglish == nil and false or MHMOTSConfig.AnnounceWithEnglish; -- 更改預設值
+    MHMOTSConfig.AnnounceWithEnglish     = MHMOTSConfig.AnnounceWithEnglish == nil and true or MHMOTSConfig.AnnounceWithEnglish;
     MHMOTSConfig.AnnounceOnlyEnglish     = MHMOTSConfig.AnnounceOnlyEnglish == nil and false or MHMOTSConfig.AnnounceOnlyEnglish;
     MHMOTSConfig.SetMarkerSolutionPlayer = MHMOTSConfig.SetMarkerSolutionPlayer == nil and false or MHMOTSConfig.SetMarkerSolutionPlayer;
 
@@ -2233,7 +2233,7 @@ function MazeHelper.frame:ADDON_LOADED(addonName)
     MHMOTSConfig.SetMarkerOnTargetCloneUseModifier = MHMOTSConfig.SetMarkerOnTargetCloneUseModifier == nil and true or MHMOTSConfig.SetMarkerOnTargetCloneUseModifier;
     MHMOTSConfig.SetMarkerOnTargetCloneModifier    = MHMOTSConfig.SetMarkerOnTargetCloneModifier or 3; -- SHIFT
 
-    MHMOTSConfig.AutoAnnouncer              = MHMOTSConfig.AutoAnnouncer == nil and true or MHMOTSConfig.AutoAnnouncer; -- 更改預設值
+    MHMOTSConfig.AutoAnnouncer              = MHMOTSConfig.AutoAnnouncer == nil and false or MHMOTSConfig.AutoAnnouncer;
     MHMOTSConfig.AutoAnnouncerAsPartyLeader = MHMOTSConfig.AutoAnnouncerAsPartyLeader == nil and true or MHMOTSConfig.AutoAnnouncerAsPartyLeader;
     MHMOTSConfig.AutoAnnouncerAsAlways      = MHMOTSConfig.AutoAnnouncerAsAlways == nil and false or MHMOTSConfig.AutoAnnouncerAsAlways;
     MHMOTSConfig.AutoAnnouncerAsTank        = MHMOTSConfig.AutoAnnouncerAsTank == nil and false or MHMOTSConfig.AutoAnnouncerAsTank;
