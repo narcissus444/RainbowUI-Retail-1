@@ -1,0 +1,9 @@
+## Interface: 110002, 110005
+## Title: |cFFFFFF00<WA Soundpack>|r |cff69ccf0by Causese|r
+## Title-zhTW: |cffFF9900[進階]|r Causese x 安格斯 WA 語音包
+## Notes-zhTW: SharedMedia_Causese |n|n此為WAGO字串用的安格斯中文語音包，原作：Causese。需搭配插件WeakAuras，並且匯入相關的 WA 字串後才能使用。|n安格斯 WA 字串下載網址：https://addons.miliui.com/show/157
+## IconTexture: Interface\AddOns\SharedMedia_Causese\z_ags
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+embeds.xml
+Soundpaths.lua 
